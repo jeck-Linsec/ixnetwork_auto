@@ -1,0 +1,162 @@
+2023-11-03 16:43:30,647 - INFO: ********************************************************
+********************************                        ø™ º≤‚ ‘                           *
+********************************************************************************************
+2023-11-03 16:43:30,647 - INFO: ø™ º ±º‰:2023-11-03 16:43:30.600235
+2023-11-03 16:43:30,818 - INFO: ≤‚ ‘≥ı ºªØ£¨∂¡»°≈‰÷√Œƒº˛
+2023-11-03 16:43:30,818 - INFO: ixNetwork≤‚ ‘“«–≈œ¢:10.10.3.225 ,”√ªß£∫11009, QT_File:[{'name': 'xncfg/2GE-bridge.ixncfg', 'mode': 'Bridge', 'interface': 'Ge0/0/6,Ge0/0/7'}, {'name': 'xncfg/2GE-gateway.ixncfg', 'mode': 'gateway', 'interface': 'Ge0/0/6,Ge0/0/7'}]
+
+2023-11-03 16:43:30,834 - INFO: ** ** ** ** ** ** √¸¡Ó≈‰÷√ ** ** ** ** ** **
+2023-11-03 16:43:33,975 - INFO: u c
+LinSec-A3500#
+2023-11-03 16:43:34,147 - INFO: zxas6cld
+             ^
+ Unrecognized command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500#
+2023-11-03 16:43:34,225 - INFO: return
+LinSec-A3500#
+2023-11-03 16:43:34,318 - INFO: config
+LinSec-A3500(config)#
+2023-11-03 16:43:34,490 - INFO: interface Bridge 1
+Warning: Command refused due to insufficient dataplane memory !
+LinSec-A3500(config)#
+2023-11-03 16:43:34,725 - INFO: bind interface Ge0/0/6
+                     ^
+ Unrecognized command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(config)#
+2023-11-03 16:43:34,943 - INFO: bind interface Ge0/0/7
+                     ^
+ Unrecognized command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(config)#
+2023-11-03 16:43:35,037 - INFO: return
+LinSec-A3500#
+2023-11-03 16:43:35,303 - INFO: save config
+Info: Saving current configuration to file named cfi:/quan.cfg.
+LinSec-A3500#
+2023-11-03 16:43:35,818 - INFO: ** ** ** ** ** **  END  ** ** ** ** ** ** **
+
+2023-11-03 16:44:05,824 - INFO: ** ** ** ** ** ** ø™ º≤‚ ‘ ** ** ** ** ** **
+2023-11-03 16:44:05,824 - INFO: ≤‚ ‘≈‰÷√£∫xncfg/2GE-bridge.ixncfg
+2023-11-03 16:44:15,147 - INFO: quickTestNameList:['2ge']
+2023-11-03 16:44:15,147 - INFO: List of Quick Test to run ...
+2023-11-03 16:44:15,147 - INFO: quickTestToRun:2ge
+2023-11-03 16:45:15,208 - INFO: Starting QuickTest name:2ge
+2023-11-03 16:45:15,583 - INFO: duration:60
+2023-11-03 16:45:15,583 - INFO: totalFrameSizesToTest:['64', '128', '256', '512', '1024', '1280', '1518']
+2023-11-03 16:50:33,944 - INFO: copyResultFileToLocalLinuxPath:result/resulcsv/
+2023-11-03 16:50:34,116 - INFO: windowsŒƒº˛¬∑æ∂:C:\Users\test\AppData\Local\Ixia\IxNetwork\data\result\DP.Rfc2544Tput\c98c2053-889b-49be-ad37-c6e8fac28a23\Run0001\AggregateResults.csv, ±£¥ÊµΩ±æµÿ: result/resulcsv/2023-11-03_16-50-33_AggregateResults.csv
+2023-11-03 16:50:39,166 - INFO: ** ** ** ** ** ** √¸¡Ó≈‰÷√ ** ** ** ** ** **
+2023-11-03 16:50:42,247 - INFO: return
+LinSec-A3500#
+2023-11-03 16:50:42,341 - INFO: debug
+LinSec-A3500(debug)#
+2023-11-03 16:50:45,357 - INFO: reset session
+Processing...
+
+2023-11-03 16:50:47,061 - INFO: reset session
+LinSec-A3500(debug)#
+2023-11-03 16:50:47,578 - INFO: ** ** ** ** ** **  END  ** ** ** ** ** ** **
+
+2023-11-03 16:50:47,578 - INFO: ** ** ** ** ** ** √¸¡Ó≈‰÷√ ** ** ** ** ** **
+2023-11-03 16:50:50,798 - INFO: u c
+                    ^
+ Ambiguous command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(debug)#
+2023-11-03 16:50:51,001 - INFO: zxas6cld
+                    ^
+ Unrecognized command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(debug)#
+2023-11-03 16:50:51,079 - INFO: return
+LinSec-A3500#
+2023-11-03 16:50:51,158 - INFO: config
+LinSec-A3500(config)#
+2023-11-03 16:50:51,643 - INFO: undo interface Bridge 1
+                                    ^
+ Unrecognized command, and error detected at '^' marker.Error at the 3th keyword
+LinSec-A3500(config)#
+2023-11-03 16:50:51,909 - INFO: save config
+Info: Saving current configuration to file named cfi:/quan.cfg.
+LinSec-A3500(config)#
+2023-11-03 16:50:52,424 - INFO: ** ** ** ** ** **  END  ** ** ** ** ** ** **
+
+2023-11-03 16:51:52,430 - INFO: ** ** ** ** ** ** √¸¡Ó≈‰÷√ ** ** ** ** ** **
+2023-11-03 16:51:55,961 - INFO: u c
+                     ^
+ Ambiguous command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(config)#
+2023-11-03 16:51:56,165 - INFO: zxas6cld
+                     ^
+ Unrecognized command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(config)#
+2023-11-03 16:51:56,243 - INFO: return
+LinSec-A3500#
+2023-11-03 16:51:56,336 - INFO: config
+LinSec-A3500(config)#
+2023-11-03 16:51:56,446 - INFO: interface Ge0/0/6
+LinSec-A3500(config-if-Ge0/0/6)#
+2023-11-03 16:51:56,571 - INFO: ip add 100.1.0.1 24
+LinSec-A3500(config-if-Ge0/0/6)#
+2023-11-03 16:51:56,649 - INFO: return
+LinSec-A3500(config)#
+2023-11-03 16:51:56,774 - INFO: interface Ge0/0/7
+LinSec-A3500(config-if-Ge0/0/7)#
+2023-11-03 16:51:56,899 - INFO: ip add 100.2.0.1 24
+LinSec-A3500(config-if-Ge0/0/7)#
+2023-11-03 16:51:56,977 - INFO: return
+LinSec-A3500(config)#
+2023-11-03 16:51:57,228 - INFO: save config
+Info: Saving current configuration to file named cfi:/quan.cfg.
+LinSec-A3500(config)#
+2023-11-03 16:51:57,729 - INFO: ** ** ** ** ** **  END  ** ** ** ** ** ** **
+
+2023-11-03 16:52:27,732 - INFO: ** ** ** ** ** ** ø™ º≤‚ ‘ ** ** ** ** ** **
+2023-11-03 16:52:27,732 - INFO: ≤‚ ‘≈‰÷√£∫xncfg/2GE-gateway.ixncfg
+2023-11-03 16:52:39,110 - INFO: quickTestNameList:['2GE-GateWay']
+2023-11-03 16:52:39,110 - INFO: List of Quick Test to run ...
+2023-11-03 16:52:39,110 - INFO: quickTestToRun:2GE-GateWay
+2023-11-03 16:53:39,160 - INFO: Starting QuickTest name:2GE-GateWay
+2023-11-03 16:53:39,504 - INFO: duration:60
+2023-11-03 16:53:39,504 - INFO: totalFrameSizesToTest:['64', '128', '256', '512', '1024', '1280', '1400']
+2023-11-03 16:54:33,929 - INFO: 1 √Î: Trial 1/1 Iteration 1, Size 66, Rate 50 % Transmitting frames for 60 seconds 
+2023-11-03 16:54:43,946 - INFO: 2 √Î: Trial 1/1 Iteration 1, Size 66, Rate 50 % Transmitting frames for 60 seconds 
+2023-11-03 16:54:53,980 - INFO: 3 √Î: Trial 1/1 Iteration 1, Size 66, Rate 50 % Transmitting frames for 60 seconds 
+2023-11-03 16:55:04,000 - INFO: 4 √Î: Trial 1/1 Iteration 1, Size 66, Rate 50 % Transmitting frames for 60 seconds 
+2023-11-03 16:55:14,020 - INFO: 5 √Î: Trial 1/1 Iteration 1, Size 66, Rate 50 % Transmitting frames for 60 seconds 
+2023-11-03 16:55:24,038 - INFO: 6 √Î: Trial 1/1 Iteration 1, Size 66, Rate 50 % Transmitting frames for 60 seconds 
+2023-11-03 16:55:34,056 - INFO: 7 √Î: Trial 1/1 Iteration 1, Size 66, Rate 50 % Wait for 2 seconds Wait 70.69633%complete
+2023-11-03 16:55:44,072 - INFO: 8 √Î: Trial 1/1 Iteration 2, Size 66, Rate 25.005 %  
+2023-11-03 16:55:54,102 - INFO: 9 √Î: Trial 1/1 Iteration 2, Size 66, Rate 25.005 % Transmitting frames for 60 seconds 
+2023-11-03 16:56:04,120 - INFO: 10 √Î: Trial 1/1 Iteration 2, Size 66, Rate 25.005 % Transmitting frames for 60 seconds 
+2023-11-03 16:56:14,452 - INFO: 11 √Î: Trial 1/1 Iteration 2, Size 66, Rate 25.005 % Transmitting frames for 60 seconds 
+2023-11-03 16:56:24,469 - INFO: 12 √Î: Trial 1/1 Iteration 2, Size 66, Rate 25.005 % Transmitting frames for 60 seconds 
+2023-11-03 16:56:34,502 - INFO: 13 √Î: Trial 1/1 Iteration 2, Size 66, Rate 25.005 % Transmitting frames for 60 seconds 
+2023-11-03 16:56:44,540 - INFO: 14 √Î: Trial 1/1 Iteration 2, Size 66, Rate 25.005 % Transmitting frames for 60 seconds 
+2023-11-03 16:56:54,588 - INFO: 15 √Î: Trial 1/1 Iteration 3, Size 66, Rate 12.508 %  
+2023-11-03 16:57:05,469 - INFO: 16 √Î: Trial 1/1 Iteration 3, Size 66, Rate 12.508 % Transmitting frames for 60 seconds 
+2023-11-03 16:57:15,509 - INFO: 17 √Î: Trial 1/1 Iteration 3, Size 66, Rate 12.508 % Transmitting frames for 60 seconds 
+2023-11-03 16:57:25,539 - INFO: 18 √Î: Trial 1/1 Iteration 3, Size 66, Rate 12.508 % Transmitting frames for 60 seconds 
+2023-11-03 16:57:35,558 - INFO: 19 √Î: Trial 1/1 Iteration 3, Size 66, Rate 12.508 % Transmitting frames for 60 seconds 
+2023-11-03 16:57:45,579 - INFO: 20 √Î: Trial 1/1 Iteration 3, Size 66, Rate 12.508 % Transmitting frames for 60 seconds 
+2023-11-03 16:57:55,622 - INFO: 21 √Î: Trial 1/1 Iteration 3, Size 66, Rate 12.508 % Transmitting frames for 60 seconds 
+2023-11-03 16:58:05,652 - INFO: 22 √Î: Trial 1/1 Iteration 4, Size 66, Rate 6.259 % Wait for 2 seconds Wait 0%complete
+2023-11-03 16:58:15,671 - INFO: 23 √Î: Trial 1/1 Iteration 4, Size 66, Rate 6.259 % Transmitting frames for 60 seconds 
+2023-11-03 16:58:25,709 - INFO: 24 √Î: Trial 1/1 Iteration 4, Size 66, Rate 6.259 % Transmitting frames for 60 seconds 
+2023-11-03 16:58:35,733 - INFO: 25 √Î: Trial 1/1 Iteration 4, Size 66, Rate 6.259 % Transmitting frames for 60 seconds 
+2023-11-03 16:58:45,755 - INFO: 26 √Î: Trial 1/1 Iteration 4, Size 66, Rate 6.259 % Transmitting frames for 60 seconds 
+2023-11-03 16:58:55,793 - INFO: 27 √Î: Trial 1/1 Iteration 4, Size 66, Rate 6.259 % Transmitting frames for 60 seconds 
+2023-11-03 16:59:05,827 - INFO: 28 √Î: Trial 1/1 Iteration 4, Size 66, Rate 6.259 % Transmitting frames for 60 seconds 
+2023-11-03 16:59:15,844 - INFO: 29 √Î: Trial 1/1 Iteration 4, Size 66, Rate 6.259 % Wait for 4 seconds Wait 45.3746834%complete
+2023-11-03 16:59:25,881 - INFO: 30 √Î: Trial 1/1 Iteration 5, Size 66, Rate 9.383 % Transmitting frames for 60 seconds 
+2023-11-03 16:59:35,912 - INFO: 31 √Î: Trial 1/1 Iteration 5, Size 66, Rate 9.383 % Transmitting frames for 60 seconds 
+2023-11-03 16:59:45,949 - INFO: 32 √Î: Trial 1/1 Iteration 5, Size 66, Rate 9.383 % Transmitting frames for 60 seconds 
+2023-11-03 16:59:55,983 - INFO: 33 √Î: Trial 1/1 Iteration 5, Size 66, Rate 9.383 % Transmitting frames for 60 seconds 
+2023-11-03 17:00:06,019 - INFO: 34 √Î: Trial 1/1 Iteration 5, Size 66, Rate 9.383 % Transmitting frames for 60 seconds 
+2023-11-03 17:00:16,051 - INFO: 35 √Î: Trial 1/1 Iteration 5, Size 66, Rate 9.383 % Transmitting frames for 60 seconds 
+2023-11-03 17:00:26,089 - INFO: 36 √Î: Trial 1/1 Iteration 5, Size 66, Rate 9.383 % Wait for 2 seconds Wait 50.45006%complete
+2023-11-03 17:00:36,129 - INFO: 37 √Î: Trial 1/1 Iteration 6, Size 66, Rate 10.945 %  
+2023-11-03 17:00:46,170 - INFO: 38 √Î: Trial 1/1 Iteration 6, Size 66, Rate 10.945 % Transmitting frames for 60 seconds 
+2023-11-03 17:00:56,205 - INFO: 39 √Î: Trial 1/1 Iteration 6, Size 66, Rate 10.945 % Transmitting frames for 60 seconds 
+2023-11-03 17:01:06,236 - INFO: 40 √Î: Trial 1/1 Iteration 6, Size 66, Rate 10.945 % Transmitting frames for 60 seconds 
+2023-11-03 17:01:16,273 - INFO: 41 √Î: Trial 1/1 Iteration 6, Size 66, Rate 10.945 % Transmitting frames for 60 seconds 
+2023-11-03 17:01:26,303 - INFO: 42 √Î: Trial 1/1 Iteration 6, Size 66, Rate 10.945 % Transmitting frames for 60 seconds 
+2023-11-03 17:01:36,350 - INFO: 43 √Î: Trial 1/1 Iteration 6, Size 66, Rate 10.945 % Transmitting frames for 60 seconds 
+2023-11-03 17:01:46,381 - INFO: 44 √Î: Trial 1/1 Iteration 7, Size 66, Rate 11.726 % Wait for 2 seconds Wait 60.547905%complete

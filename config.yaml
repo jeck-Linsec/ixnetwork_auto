@@ -1,0 +1,118 @@
+# 示例 YAML 配置文件
+
+# 串口信息
+host: 10.10.5.10
+port: 10027
+timeout: 3
+
+# 串口信息（ipsec使用）
+host1: 10.10.5.10
+port1: 10011
+
+
+# ixnetwork系统信息
+ixNetworkApiServer : 10.10.3.225
+ixNetworkPort : 11009
+
+## 测试模板名称
+quickTestConfigFiles :
+######################Bridge#####################
+#  - name: xncfg/4SFPjia-bridge.ixncfg
+#    mode: Bridge
+#    interface : Ten-Ge0/1/0,Ten-Ge0/1/1,Ten-Ge0/1/2,Ten-Ge0/1/3
+#  - name: xncfg/2SFPjia-bridge3.ixncfg
+#    mode: Bridge
+#    interface : Ten-Ge0/1/0,Ten-Ge0/1/1
+  - name: xncfg/2GE-bridge.ixncfg
+    mode: Bridge
+    interface : Ge0/0/6,Ge0/0/7
+#  - name: xncfg/2GE-bridge-1518.ixncfg
+#    mode: Bridge
+#    interface : Ge0/0/6,Ge0/0/7
+#  - name: xncfg/8GE-bridge.ixncfg
+#    mode: Bridge
+#    interface : Ge0/1/0,Ge0/1/1,Ge0/1/2,Ge0/1/3,Ge0/1/4,Ge0/1/5,Ge0/1/6,Ge0/1/7
+
+######################gateway#####################
+  - name: xncfg/2GE-gateway.ixncfg
+    mode: gateway
+    interface : Ge0/0/6,Ge0/0/7
+#  - name: xncfg/2GE-gateway-1518.ixncfg
+#    mode: ipsec
+#    key: aes128
+#    interface : Ten-Ge0/3/0,Ten-Ge0/3/1
+#  - name: xncfg/2GE-gateway.ixncfg
+#    mode: ipsec
+#    key: aes192
+#    interface : Ten-Ge0/3/0,Ten-Ge0/3/1
+#  - name: xncfg/2GE-gateway.ixncfg
+#    mode: ipsec
+#    key: aes256
+#    interface: Ten-Ge0/3/0,Ten-Ge0/3/1
+#  - name: xncfg/2GE-gateway.ixncfg
+#    mode: ipsec
+#    key: 3des
+#    interface: Ten-Ge0/3/0,Ten-Ge0/3/1
+
+######################ipsec#####################
+#  - name: xncfg/2GE-gateway.ixncfg
+#    mode: ipsec
+#    key: aes128
+#    interface : Ten-Ge0/3/0,Ten-Ge0/3/1
+#  - name: xncfg/2GE-gateway.ixncfg
+#    mode: ipsec
+#    key: aes192
+#    interface : Ten-Ge0/3/0,Ten-Ge0/3/1
+#  - name: xncfg/2GE-gateway.ixncfg
+#    mode: ipsec
+#    key: aes256
+#    interface: Ten-Ge0/3/0,Ten-Ge0/3/1
+#  - name: xncfg/2GE-gateway.ixncfg
+#    mode: ipsec
+#    key: 3des
+#    interface: Ten-Ge0/3/0,Ten-Ge0/3/1
+
+# 登录命令
+login:
+  - return
+  - u c
+  - zxas6cld
+  - config
+
+# 配置空配置
+config_file:
+  - next-startload configuration cfi:/kong.cfg
+  - save config
+  - return
+  - sys
+  - reboot
+  - "yes"
+  - "yes"
+
+# 清会话
+reset_session:
+  - return
+  - debug
+  - reset session
+  - reset session
+
+## 桥模式
+#config_Bridge:
+#  - interface Bridge 1
+#  - bind interface ge 0/0/12
+#  - bind interface ge 0/0/13
+#  - return
+#  - save config
+#
+## 路由模式
+#config_gatway:
+#  - undo interface Bridge 1
+#  - interface Ge 0/0/12
+#  - ip add 6.5.6.1 24
+#  - return
+#  - interface Ge 0/0/13
+#  - ip add 6.5.5.1 24
+#  - return
+#  - save config
+
+

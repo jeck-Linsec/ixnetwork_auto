@@ -1,0 +1,46 @@
+2023-11-03 16:07:57,803 - INFO: ********************************************************
+********************************                        开始测试                           *
+********************************************************************************************
+2023-11-03 16:07:57,803 - INFO: 开始时间:2023-11-03 16:07:57.772238
+2023-11-03 16:07:57,818 - INFO: 测试初始化，读取配置文件
+2023-11-03 16:07:57,818 - INFO: ixNetwork测试仪信息:10.10.3.225 ,用户：11009, QT_File:[{'name': 'xncfg/2GE-bridge.ixncfg', 'mode': 'Bridge', 'interface': 'Ge0/0/6,Ge0/0/7'}, {'name': 'xncfg/2GE-gateway.ixncfg', 'mode': 'gateway', 'interface': 'Ge0/0/6,Ge0/0/7'}]
+
+2023-11-03 16:07:57,834 - INFO: ** ** ** ** ** ** 命令配置 ** ** ** ** ** **
+2023-11-03 16:08:01,350 - INFO: u c
+                     ^
+ Ambiguous command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(config)#
+2023-11-03 16:08:01,537 - INFO: zxas6cld
+                     ^
+ Unrecognized command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(config)#
+2023-11-03 16:08:01,631 - INFO: return
+LinSec-A3500#
+2023-11-03 16:08:01,709 - INFO: config
+LinSec-A3500(config)#
+2023-11-03 16:08:01,881 - INFO: interface Bridge 1
+Warning: Command refused due to insufficient dataplane memory !
+LinSec-A3500(config)#
+2023-11-03 16:08:02,100 - INFO: bind interface Ge0/0/6
+                     ^
+ Unrecognized command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(config)#
+2023-11-03 16:08:02,318 - INFO: bind interface Ge0/0/7
+                     ^
+ Unrecognized command, and error detected at '^' marker.Error at the 1th keyword
+LinSec-A3500(config)#
+2023-11-03 16:08:02,412 - INFO: return
+LinSec-A3500#
+2023-11-03 16:08:02,709 - INFO: save config
+Info: Saving current configuration to file named cfi:/quan.cfg.
+LinSec-A3500#
+2023-11-03 16:08:03,241 - INFO: ** ** ** ** ** **  END  ** ** ** ** ** ** **
+
+2023-11-03 16:11:32,865 - INFO: ** ** ** ** ** ** 开始测试 ** ** ** ** ** **
+2023-11-03 16:11:32,865 - INFO: 测试配置：xncfg/2GE-bridge.ixncfg
+2023-11-03 16:11:50,611 - INFO: quickTestNameList:['2ge']
+2023-11-03 16:11:50,627 - INFO: List of Quick Test to run ...
+2023-11-03 16:11:50,627 - INFO: quickTestToRun:2ge
+2023-11-03 16:12:50,684 - INFO: Starting QuickTest name:2ge
+2023-11-03 16:12:51,075 - INFO: duration:60
+2023-11-03 16:12:51,075 - INFO: totalFrameSizesToTest:['64', '128', '256', '512', '1024', '1280', '1518']
